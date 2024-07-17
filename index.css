@@ -1,0 +1,46 @@
+body {
+  font-family: "Mountains of Christmas", cursive;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.welcome {
+  text-align: center;
+}
+
+.maze {
+  font-size: 3rem;
+}
+
+.difficulty {
+  font-size: 1.2rem;
+}
+
+.card {
+  background-color: aquamarine;
+  border-radius: 10px;
+  width: 800px;
+  text-align: center;
+  padding: 60px 10px;
+}
+
+button {
+  padding: 8px 20px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-right: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.2);
+  background-color: cornflowerblue;
+  color: cornsilk;
+  cursor: pointer;
+}

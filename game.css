@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.winner {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.winner h1 {
+  margin: 0;
+  font-size: 3rem;
+  color: #206a5d;
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  padding: 8px 20px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-right: 10px;
+  transition: all 0.3s ease-in-out;
+  background-color: cornflowerblue;
+  color: cornsilk;
+}
+
+button:hover {
+  transform: scale(1.2);
+  background-color: #28b5b5;
+  cursor: pointer;
+  color: black;
+}
